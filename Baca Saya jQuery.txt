@@ -1,0 +1,54 @@
+CMS Lokomedia versi jQuery
+(Update terakhir 07 September 2010)
+
+- CMS Lokomedia versi jQuery merupakan pengembangan final project
+yang dibahas dalam buku "BIKIN WEBSITE SUPER KEREN DENGAN PHP & JQUERY".
+
+- CMS Lokomedia yang digunakan adalah versi 1.4.2.
+
+- Sebenarnya CMS Lokomedia hanya dibuatkan sebuah templates baru 
+dengan nama eljQuery yang terdapat di folder templates. Sehingga apabila
+Anda mengingkan balik ke tampilan semula, tinggal aktifkan Templates lainnya 
+melalui Halaman Administrator.
+
+- Beberapa modul tambahan yang ada pada versi jQuery adalah 
+  + Sekilas Info (tabel sekilasinfo)
+  + Halaman Statis (tabel halamanstatis), contohnya Profil dan Visi Misi
+  + Menu Utama dan Sub Menu (tabel mainmenu dan submenu)
+  (Semuanya bisa dikelola melalui halaman Administrator)
+
+- Tambahan tooltips, dimana apabila mouse diarahkan ke salah satu judul berita atau kategori, 
+maka akan tampil cuplikan beritanya dalam bentuk tooltips. Adapun plugin tooltips 
+yang digunakan adalah tipsy yang filenya dapat ditemukan pada folder 
+lokojquery/templates/eljquery/js/jquery.tipsy.js.
+
+
+========================================================================
+- Syarat utama menjalankan CMS Lokomedia versi jQuery, pastikan mod_rewrite pada server Apache sudah diaktifkan, caranya ada di buku atau bisa disaksikan langsung video tutorialnya yang ada di CD.
+
+- Dan jangan lupa Import databasenya melalui phpMyAdmin dengan nama database dbjquery (dbjquery.sql).
+
+- Untuk masuk ke halaman Administrator, ketik alamat berikut:
+
+http://localhost/lokojquery/adminweb/
+
+atau kalau sudah di online-kan:
+
+http://namadomain/adminweb/
+
+Isikan Username: admin dan Password: admin.
+Tips: Segera ganti passwordnya apabila Anda sudah masuk ke halaman Administrator.  
+
+- Adapun file untuk konfigurasi database bisa Anda temukan di folder lokomedia/config/koneksi.php, silahkan sesuaikan dengan username dan password database di komputer atau server hosting(domain) Anda.
+
+- Dan terakhir, kritik dan saran membangun sangat saya harapkan dari para pembaca/pengguna CMS Lokomedia versi jQuery 
+agar terus dapat berjalan dengan baik dan stabil.
+
+
+Salam Hangat,
+
+Lukmanul Hakim
+(www.bukulokomedia.com)
+
+
+
